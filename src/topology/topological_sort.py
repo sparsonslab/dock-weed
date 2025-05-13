@@ -1,26 +1,6 @@
-"""
-Summary
--------
-Functions for topological sorting and display of directed graphs.
-
-
-Extended Summary
-----------------
-A directed graph is represented as a dict with entries:
-<node name>:[<list of nodes that feed either in or out of it>]
-e.g.
-incoming representation:
-{'a':[], 'b':['a'], 'c':['a', 'b']}
-outgoing representation:
-{'a':['b', 'c'], 'b':['c'], 'c':[]}
-
-Author
-------
-Sean Parsons @ Enthought Inc., March-April 2020.
-"""
+# Copyright (c) 2025-2025. Dr Sean Paul Parsons. All rights reserved.
 
 import copy
-
 import random
 
 import matplotlib.pyplot as plt
