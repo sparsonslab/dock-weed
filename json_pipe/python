@@ -1,0 +1,2 @@
+rpc error: code = 2 desc = oci runtime error: exec failed: container_linux.go:247: starting container process caused "exec: \"{'x': 54.3, 'y': 67.8}\": executable file not found in $PATH"
+

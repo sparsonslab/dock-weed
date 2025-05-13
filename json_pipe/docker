@@ -1,0 +1,12 @@
+{"name": "a funny script", "x": 67.98769, "y": 56.78, "z": 32}rpc error: code = 2 desc = oci runtime error: exec failed: container_linux.go:247: starting container process caused "exec: \"{'x': 54.3, 'y': 67.8}\": executable file not found in $PATH"
+
+import json
+import sys
+
+val = sys.stdin.read()
+try:
+    input_data = json.loads(val)
+    z = input_data['x'] + input_data['y']
+    print(f"x + y = {z}")
+except json.decoder.JSONDecodeError:
+    print("Cannot parse")
