@@ -18,7 +18,7 @@ int main() {
 
         // Output.
         json outputData;
-        outputData["x"] = a / b;
+        outputData["z"] = a / b;
         std::cout << outputData << std::endl;
         return 0;
     }
