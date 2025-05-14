@@ -1,5 +1,7 @@
 # Dockweed
 
+<picture><img src="Rumex_X_patientia_Sturm55.jpg" width="150" align="left" style="margin:10px; border:1px solid black"/></picture>
+
 Dockweed is a library (and possibly application) for creating and running directed acyclic graphs (DAGs)
 of Docker containers. These graphs can be used for general workflows and for optimisation.
 
