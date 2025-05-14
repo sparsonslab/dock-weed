@@ -16,7 +16,7 @@ I was on at Enthought and can be summarised as:
 
 Of course there are already many workflow frameworks such as [Nextflow](https://www.nextflow.io/) and 
 [Airflow](https://airflow.app/) so why not just use these? Firstly, Dockweed is an exercise for myself. Secondly,
-the function/philosophy of these frameworks is quite different to Dockweed:
+the function/philosophy of these frameworks is quite different to Dockweed. In these frameworks:
 - The workflow consists of a set of "tasks" (defined functions).
 - Data flow between tasks can either be:
   
